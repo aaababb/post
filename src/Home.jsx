@@ -24,10 +24,9 @@ function Home() {
     <>
       {!showVideo ? (
         <div>
-          <div className='text-center absolute mx-[120px] mt-[710px] font-bold' >
-            <div className='text-[25px] text-red-700'>
-              <p>Кыргыз кино КАРЫНДАШ</p>
-              <p>Толугу менен</p>
+          <div className='text-center absolute mx-[120px] mt-[610px] font-bold' >
+            <div className='text-[25px] text-red-700 w-[200px]'>
+              <p>Кыргыз кино КАРЫНДАШ Толугу менен</p>
             </div>
           </div>
           <div onClick={handleShow} className='flex justify-center items-center lg:w-100% cursor-pointer'>
