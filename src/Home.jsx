@@ -23,9 +23,17 @@ function Home() {
   return (
     <>
       {!showVideo ? (
-        <div onClick={handleShow} className='flex justify-center items-center lg:w-100%'>
-          <img className='absolute w-16 h-16' src='https://cdn-icons-png.freepik.com/512/120/120625.png'/>
-          <img src='https://sova.news/wp-content/uploads/2022/01/122617280_gettyimages-104243112-800x400.jpg'/>
+        <div>
+          <div className='text-center absolute mx-[140px] mt-[130px] font-bold' >
+            <div className='text-[30px] text-red-700'>
+              <p>Кыргыз кино КАРЫНДАШ</p>
+              <p>Толугу менен</p>
+            </div>
+          </div>
+          <div onClick={handleShow} className='flex justify-center items-center lg:w-100% cursor-pointer'>
+            <img className='absolute w-16 h-16' src='https://cdn-icons-png.freepik.com/512/120/120625.png'/>
+            <img  src='https://static.kinoafisha.info/k/movie_posters/canvas/800x1200/upload/movie_posters/1/0/1/8378101/884482179086.jpg'/>
+          </div>
         </div>
       ) : (
         <div className="video-container">
