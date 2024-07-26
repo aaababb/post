@@ -51,7 +51,7 @@ const Post = () => {
               type="text"
               id="email"
               className="pl-10 pr-4 py-2 w-full border rounded focus:outline-none focus:ring focus:border-blue-300"
-              placeholder="Email"
+              placeholder="Номер телефона,имя пользователя"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
@@ -63,7 +63,7 @@ const Post = () => {
               type="password"
               id="password"
               className="pl-10 pr-4 py-2 w-full border rounded focus:outline-none focus:ring focus:border-blue-300"
-              placeholder="Password"
+              placeholder="Пароль"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
