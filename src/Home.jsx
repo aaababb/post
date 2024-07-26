@@ -24,7 +24,7 @@ function Home() {
     <>
       {!showVideo ? (
         <div>
-          <div className='text-center absolute mx-[120px] mt-[610px] font-bold' >
+          <div className='text-center absolute mx-[100px] mt-[560px] font-bold' >
             <div className='text-[25px] text-red-700 w-[200px]'>
               <p>Кыргыз кино КАРЫНДАШ Толугу менен</p>
             </div>
